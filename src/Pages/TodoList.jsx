@@ -85,8 +85,9 @@ const TodoList = () => {
         p={4}
         borderRadius="md"
         boxShadow="lg"
+        // bgGradient={"linear(to-l, #7928CA, #FF0080)"}
       >
-        <Heading mb={4} textAlign="center">
+        <Heading color={"whiteAlpha"} mb={4} textAlign="center">
           To-Do List
         </Heading>
         <Stack spacing={4}>
@@ -146,6 +147,7 @@ const TodoList = () => {
               }}
             >
               <Flex
+            //   border={"2px solid white"}
                 alignItems="center"
                 justifyContent="space-between"
                 boxShadow={
